@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Join Us</title>
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
     </head>
 
@@ -10,37 +13,36 @@
  
             <nav>
                 <a href="index.html">Bouldering Gym</a>
-                 <a href="faq.html">Rates and FAQ</a>
+                <a href="photos.html"> Photos</a>
                 <a href="joinus.html">Join Us!</a>
-                 <a href="photos.html"> Photos</a>
+                 <a href="faq.html">Rates and FAQ</a>
             </nav>
-
         </header>
+        
+        <h3>Access Option</h3>
 
-        <div>
+        <div id="form">
             <form>
                 <fieldset>
                     <legend>User Info</legend>
                     First Name:
-                    <input type="text" placeholder="First Name"  required="required"> <br>
+                    <input type="text" placeholder="First Name"  required="required"> <br> 
                     Last Name: 
-                    <input type="text" placeholder="Last Name" required="required"> <br>
+                    <input type="text" placeholder="Last Name" required="required"> <br> 
                     Date Of Birth:
-                    <input type ="date"  required="required"> <br>
+                    <input type ="date"  required="required"> <br> 
                     Phone Number:
-                    <input type="number" maxlength="3"> - <input type="number" maxlength="3"> - <input type="number" maxlength="3"> <br>
-                    Email: 
-                    <input type="email">
+                    <input type="number" maxlength="3"> - <input type="number" maxlength="3"> - <input type="number" maxlength="3"> <br> 
+                    Email:
+                    <input type="email" placeholder="example@email.com"> <br><br>
                 </fieldset>
                 <fieldset>
-                    <legend>Membership Option</legend>
-                    <input type="radio" name="membership"> Day Pass <br>
-                    <input type="radio" name="membership"> 7 ay Punch Pass <br>
+                    <legend>Membership Type</legend>
                     <input type="radio" name="membership"> Recurring Monthly <br>
                     <input type="radio" name="membership"> Full Year <br>
                 </fieldset>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" style="text-ali">
             </form>
         </div>
         
