@@ -4,6 +4,7 @@ body {
 }
 
 h3 {
+    margin-top: 15px;
     text-align: center;
     font-size: 2em;
     font-family: 'Russo One', sans-serif;
@@ -54,6 +55,7 @@ footer h3 {
 }
 
 
+
 /* Nav Bar */
 
 nav {
@@ -82,7 +84,7 @@ nav {
 #hero {
     padding: 0px;
     width: 100%;
-    background-image: url(img/hero.webp);
+    background-image: url(/img/hero.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,9 +97,11 @@ nav {
 
 #form {
     margin: 0px auto;
-    width: 80%;
-    border: 1px red solid;
+    width: 60%;
+    border: 1px black solid;
     padding: 20px;
+    box-shadow: 10px 10px 20px;
+    margin-top: 75px;
 }
 /*classes */
 
@@ -135,9 +139,6 @@ nav {
     height: auto;
 }
 
-
-/* fonts */
-@font-face {
-    font-family: "h3Title";
-    src: url()
+.shadow {
+    box-shadow: 10px 10px 15px;
 }
